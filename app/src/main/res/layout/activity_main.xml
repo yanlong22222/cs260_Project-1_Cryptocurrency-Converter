@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/blank"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/usDollor_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/usDollar_icon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="32dp"
+                android:text="$"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/usDollar_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:text="US DOLLAR"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/usd_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="right|center_vertical"
+                android:hint="0.00"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingRight="32dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bitcoin_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bitcoin_icon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="₿"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/bitcoin_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:text="BITCOIN"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/btc_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="right|center_vertical"
+                android:hint="0.00"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingRight="32dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/britishPound_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/britishPoundIcon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="£"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/britishPound"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:text="BRITISH POUND"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/gbp_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="right|center_vertical"
+                android:hint="0.00"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingRight="32dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/euro_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/euroIcon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="28dp"
+                android:text="€"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/euro"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:text="EURO"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/eur_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="right|center_vertical"
+                android:hint="0.00"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingRight="32dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chineseYuan_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/chineseYuanIcon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="23dp"
+                android:text="￥"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chineseYuan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:text="CHINESE YUAN"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/cny_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="right|center_vertical"
+                android:hint="0.00"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingRight="32dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/indianRupee_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/indianRupeeIcon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="₹"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/indianRupee"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:text="INDIAN RUPEE"
+                android:textColor="#000000"
+                android:textScaleX="1.1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/inr_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="right|center_vertical"
+                android:hint="0.00"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingRight="32dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textScaleX="1.1"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/clearButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:text="CONVERT"
+        android:textColor="#FFFFFF"
+        android:textScaleX="1.1"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:background="@drawable/rounded_button"
+        android:text="CLEAR"
+        android:textColor="#FFFFFF"
+        android:textScaleX="1.1"
+        android:textSize="25sp" />
+
+</RelativeLayout>
